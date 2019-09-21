@@ -1,28 +1,14 @@
-<!DOCTYPE html>
 <html>
-    <head>
-        <meta charset="utf-8"/>
-        <title>Rock-Paper-Scissors</title>
-    </head>
-    <body>
-        <script>
-            function computerPlay() {
-                let randNum = Math.floor((Math.random() * 3));
+	<head>
+		<link rel="stylesheet" href="style.css">
+		<script src="script.js"></script>
+		<title>Rock, Paper, Scissors</title>
+	</head>
 
-                switch(randNum) {
-                    case 0:
-                        return 'Rock';
-                        break;
-                    case 1:
-                        return 'Paper';
-                        break;
-                    case 2:
-                        return 'Scissors';
-                        break;
-                };
-            };
+	<body>
+		<button id="rock" onclick="option(0) ;">ROCK</button>
+		<button id="paper" onclick="option(1) ;">PAPER</button>
+		<button id="scissors" onclick="option(2) ;">SCISSORS</button>
+	</body>
 
-            computerPlay();
-        </script>
-    </body>
 </html>

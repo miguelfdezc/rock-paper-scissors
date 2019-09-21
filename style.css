@@ -1,0 +1,47 @@
+#rock {
+	margin:40px;
+	color:white;
+	font-size:25px;
+	background-image: url(rock.jpg);
+	background-repeat:no-repeat;
+	border-color:black;
+  	height:150px;
+  	width:150px;
+ 	background-position:center;
+ 	border-radius:100%;
+ 	position:absolute;
+ 	top:50;
+ 	left:525;
+}
+
+#paper {
+	margin:40px;
+	color:black;
+	font-size:25px;
+	background-image: url(paper.jpg);
+	background-repeat:no-repeat;
+	border-color:black;
+  	height:150px;
+  	width:150px;
+ 	background-position:center;
+ 	border-radius:100%;
+ 	position:absolute;
+ 	top:300;
+ 	left:375;
+}
+
+#scissors {
+	margin:40px;
+	color:white;
+	font-size:25px;
+	background-image: url(scissors.jpg);
+	background-repeat:no-repeat;
+	border-color:black;
+  	height:150px;
+  	width:150px;
+ 	background-position:center;
+ 	border-radius:100%;
+ 	position:absolute;
+ 	top:300;
+ 	left:675;
+}
