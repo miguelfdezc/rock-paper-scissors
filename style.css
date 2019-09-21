@@ -2,7 +2,7 @@
 	margin:40px;
 	color:white;
 	font-size:25px;
-	background-image: url(rock.jpg);
+	background-image: url(img/rock.jpg);
 	background-repeat:no-repeat;
 	border-color:black;
   	height:150px;
@@ -11,14 +11,15 @@
  	border-radius:100%;
  	position:absolute;
  	top:50;
- 	left:525;
+	left:525;
+	outline: none;
 }
 
 #paper {
 	margin:40px;
 	color:black;
 	font-size:25px;
-	background-image: url(paper.jpg);
+	background-image: url(img/paper.jpg);
 	background-repeat:no-repeat;
 	border-color:black;
   	height:150px;
@@ -27,14 +28,15 @@
  	border-radius:100%;
  	position:absolute;
  	top:300;
- 	left:375;
+	left:375;
+	outline: none;
 }
 
 #scissors {
 	margin:40px;
 	color:white;
 	font-size:25px;
-	background-image: url(scissors.jpg);
+	background-image: url(img/scissors.jpg);
 	background-repeat:no-repeat;
 	border-color:black;
   	height:150px;
@@ -43,5 +45,6 @@
  	border-radius:100%;
  	position:absolute;
  	top:300;
- 	left:675;
+	left:675;
+	outline: none;
 }
